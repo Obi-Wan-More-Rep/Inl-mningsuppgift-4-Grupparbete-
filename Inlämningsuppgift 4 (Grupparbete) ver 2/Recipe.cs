@@ -13,5 +13,6 @@ namespace Inlämningsuppgift_4__Grupparbete_
         public string Type { get; set; }
 
        public List<Recipe> Recipes { get;}
+        public Recipe() { } 
     }
 }
