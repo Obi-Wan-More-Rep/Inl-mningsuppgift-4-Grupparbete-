@@ -17,10 +17,4 @@ bara Admins har tillgång till där man kan använda sig av "updatera" och "ta bort
 
 3. Jag tycker att jag har för mycket kommentarer i "private void recipeDataGridView_SelectionChanged". Kan någon skriva bättre kommentarer eller ta bort några på den metoden?
 
-
-
-
-
-
-
 4. När jag laddar description från text dokummentet så kanske jag kan använda mig av en "break;" för varje rad (får testa senare).

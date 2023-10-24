@@ -22,14 +22,14 @@ namespace recp_18_ok
 
         private void Logg_Click(object sender, EventArgs e)
         { 
-            pass.managers.Add(new pass { username = "najah", password = "123" });
+            pass.managers.Add(new pass { username = "Najah", password = "123" });
             pass.managers.Add(new pass { username = "Vanesa", password = "123" });
             pass.managers.Add(new pass { username = "Kamal", password = "123" });
             pass.managers.Add(new pass { username = "Simon", password = "123" });
             pass.managers.Add(new pass { username = "Kevin", password = "123" });
             pass.managers.Add(new pass { username = "Cornelia", password = "123" });
             
-            string username = Userbox.Text.ToLower();
+            string username = Userbox.Text;
             string password = passbox.Text;
 
             if (pass.RightInloggning(username,password))
